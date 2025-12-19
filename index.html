@@ -8,6 +8,15 @@
 <meta name="description" content="مركز عالم السيارات – سمكرة ودوكو احترافي، إصلاح حوادث، تلميع وتجديد دهان. مفتوح 24 ساعة في المعادي. اتصال مباشر وواتساب.">
 
 <link rel="stylesheet" href="style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17807783332"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17807783332');
+</script>
 </head>
 
 <body>
@@ -18,9 +27,7 @@
 
     <div class="hero-content">
         <h1>عالم السيارات</h1>
-        <p class="subtitle">
-            مركز سمكرة ودوكو احترافي – المعادي
-        </p>
+        <p class="subtitle">مركز سمكرة ودوكو احترافي – المعادي</p>
 
         <div class="hero-badges">
             <span>✔ خبرة سنوات</span>
@@ -29,13 +36,18 @@
         </div>
 
         <div class="hero-actions">
-            <a href="tel:01096312813" class="btn primary">
+            <a href="tel:01096312813" class="btn primary"
+               onclick="return gtag_report_conversion('tel:01096312813');">
                 📞 اتصال فوري
             </a>
-            <a href="https://wa.me/201096312813" class="btn whatsapp">
+
+            <a href="https://wa.me/201096312813" class="btn whatsapp"
+               onclick="return gtag_report_conversion('https://wa.me/201096312813');">
                 💬 واتساب
             </a>
-            <a href="#location" class="btn outline">
+
+            <a href="#location" class="btn outline"
+               onclick="gtag_report_conversion();">
                 📍 الموقع
             </a>
         </div>
@@ -45,99 +57,18 @@
 <!-- SERVICES -->
 <section class="section">
     <h2 class="section-title">خدماتنا</h2>
-
     <div class="services-grid">
-        <div class="service-card">
-            🎨
-            <h3>سمكرة ودوكو</h3>
-            <p>تشطيب احترافي بأعلى جودة دهان</p>
-        </div>
-
-        <div class="service-card">
-            🚗
-            <h3>إصلاح حوادث</h3>
-            <p>إعادة السيارة لحالتها الأصلية</p>
-        </div>
-
-        <div class="service-card">
-            ✨
-            <h3>تجديد دهان</h3>
-            <p>تلميع ومعالجة خدوش</p>
-        </div>
-
-        <div class="service-card">
-            🔧
-            <h3>تجهيز قبل البيع</h3>
-            <p>رفع قيمة سيارتك قبل البيع</p>
-        </div>
+        <div class="service-card">🎨<h3>سمكرة ودوكو</h3><p>تشطيب احترافي بأعلى جودة دهان</p></div>
+        <div class="service-card">🚗<h3>إصلاح حوادث</h3><p>إعادة السيارة لحالتها الأصلية</p></div>
+        <div class="service-card">✨<h3>تجديد دهان</h3><p>تلميع ومعالجة خدوش</p></div>
+        <div class="service-card">🔧<h3>تجهيز قبل البيع</h3><p>رفع قيمة سيارتك قبل البيع</p></div>
     </div>
 </section>
-<!-- WHY US -->
-<section class="section gray">
-    <h2 class="section-title">ليه تختار عالم السيارات؟</h2>
 
-    <div class="features-grid">
-        <div class="feature">
-            🛡️
-            <h3>ضمان على الشغل</h3>
-            <p>بنضمن جودة السمكرة والدهان</p>
-        </div>
-
-        <div class="feature">
-            ⏱️
-            <h3>سرعة في التنفيذ</h3>
-            <p>نلتزم بالوقت المتفق عليه</p>
-        </div>
-
-        <div class="feature">
-            🎯
-            <h3>تشطيب دقيق</h3>
-            <p>تفاصيل دقيقة تفرق في النتيجة</p>
-        </div>
-
-        <div class="feature">
-            💰
-            <h3>أسعار عادلة</h3>
-            <p>أفضل سعر مقابل أعلى جودة</p>
-        </div>
-    </div>
-</section>
-<!-- PROCESS -->
-<section class="section">
-    <h2 class="section-title">خطوات العمل</h2>
-
-    <div class="process-grid">
-        <div class="step">
-            <span>1</span>
-            <h3>فحص السيارة</h3>
-            <p>تقييم كامل للأضرار</p>
-        </div>
-
-        <div class="step">
-            <span>2</span>
-            <h3>تحديد التكلفة</h3>
-            <p>تسعير واضح بدون مفاجآت</p>
-        </div>
-
-        <div class="step">
-            <span>3</span>
-            <h3>التنفيذ</h3>
-            <p>سمكرة ودوكو باحتراف</p>
-        </div>
-
-        <div class="step">
-            <span>4</span>
-            <h3>التسليم</h3>
-            <p>سيارتك كأنها جديدة</p>
-        </div>
-    </div>
-</section>
 <!-- LOCATION -->
 <section class="section gray" id="location">
     <h2 class="section-title">📍 موقعنا</h2>
-    <p class="section-desc">
-        نفق القطامية – الزهراء – المعادي
-    </p>
+    <p class="section-desc">نفق القطامية – الزهراء – المعادي</p>
 
     <div class="map-box">
         <iframe 
@@ -145,19 +76,49 @@
         loading="lazy"></iframe>
     </div>
 
-    <a href="https://share.google/H4SdonavjpPNQmRZK" class="btn primary">
+    <a href="https://share.google/H4SdonavjpPNQmRZK" class="btn primary"
+       onclick="return gtag_report_conversion('https://share.google/H4SdonavjpPNQmRZK');">
         افتح الموقع على Google Maps
     </a>
 </section>
+
+<!-- CTA -->
 <section class="cta">
     <h2>جاهز تحسّن شكل سيارتك؟</h2>
     <p>اتصل دلوقتي وخد استشارة سريعة</p>
 
     <div class="hero-actions">
-        <a href="tel:01096312813" class="btn primary">📞 اتصال مباشر</a>
-        <a href="https://wa.me/201096312813" class="btn whatsapp">💬 واتساب</a>
+        <a href="tel:01096312813" class="btn primary"
+           onclick="return gtag_report_conversion('tel:01096312813');">
+           📞 اتصال مباشر
+        </a>
+
+        <a href="https://wa.me/201096312813" class="btn whatsapp"
+           onclick="return gtag_report_conversion('https://wa.me/201096312813');">
+           💬 واتساب
+        </a>
     </div>
 </section>
+
 <footer class="footer">
     <p>© 2025 عالم السيارات – سمكرة ودوكو احترافي – المعادي</p>
 </footer>
+
+<!-- Conversion Function -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) !== 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+    'send_to': 'AW-17807783332/9JxRCPvphNQbEKTrtKtC',
+    'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+</body>
+</html>
